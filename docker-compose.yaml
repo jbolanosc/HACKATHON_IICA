@@ -1,0 +1,61 @@
+version: "3"
+services:
+  api-gateway:
+    build: "./api-gateway"
+    links:
+      - store-service
+      - user-service
+    ports:
+      - 7000:7000
+    volumes:
+      - ./api-gateway:/opt/app
+
+  user-service:
+    build: "./user-service"
+    restart: always
+    environment:
+      - PORT=7100
+      - SECRET_KEY=tyyTjv7gtu0rGuL7Jx4Fl7SVr3TSIwPyJyS7
+      - DB_USER=root
+      - DB_PASSWORD=hackathon123
+      - C_NAME=dmekaw2ew
+      - C_KEY=969457726477199
+      - API_SECRET=54S0xnn_sqjTcwG1W2tQg9KD0kk
+    ports:
+      - 7100:7100
+    links:
+      - user-service-db
+
+  user-service-db:
+    image: mongo
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=hackathon123
+    ports:
+      - 0.0.0.0:7200:27017
+
+  store-service:
+    build: "./store-service"
+    restart: always
+    environment:
+      - PORT=7101
+      - SECRET_KEY=tyyTjv7gtu0rGuL7Jx4Fl7SVr3TSIwPyJyS7
+      - DB_USER=root
+      - DB_PASSWORD=hackathon123
+      - C_NAME=dmekaw2ew
+      - C_KEY=969457726477199
+      - API_SECRET=54S0xnn_sqjTcwG1W2tQg9KD0kk
+    ports:
+      - 7101:7101
+    links:
+      - user-service-db
+
+  store-service-db:
+    image: mongo
+    restart: always
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=hackathon123
+    ports:
+      - 0.0.0.0:7201:27017

@@ -1,0 +1,174 @@
+Date : 2020-08-01 20:07:13
+Directory : /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP
+Total : 103 files,  21616 codes, 119 comments, 559 blanks, all 22294 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |         10 |     19,167 |          0 |         10 |     19,177 |
+| JavaScript |         81 |      2,252 |         62 |        477 |      2,791 |
+| YAML       |          2 |         59 |          6 |         10 |         75 |
+| CSS        |          2 |         45 |          0 |          8 |         53 |
+| Markdown   |          1 |         37 |          0 |         32 |         69 |
+| Dockerfile |          4 |         28 |         28 |         20 |         76 |
+| HTML       |          1 |         20 |         23 |          1 |         44 |
+| XML        |          1 |          7 |          0 |          1 |          8 |
+| Ignore     |          1 |          1 |          0 |          0 |          1 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                              | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                 |        103 |     21,616 |        119 |        559 |     22,294 |
+| api-gateway                                                                                                       |         37 |      8,356 |         12 |        170 |      8,538 |
+| api-gateway/src                                                                                                   |         32 |        954 |          5 |        162 |      1,121 |
+| api-gateway/src/adapters                                                                                          |          8 |        382 |          5 |         70 |        457 |
+| api-gateway/src/adapters/store-service                                                                            |          4 |        250 |          0 |         43 |        293 |
+| api-gateway/src/adapters/user-service                                                                             |          4 |        132 |          5 |         27 |        164 |
+| api-gateway/src/graphql                                                                                           |         19 |        512 |          0 |         68 |        580 |
+| api-gateway/src/graphql/resolvers                                                                                 |          9 |        299 |          0 |         27 |        326 |
+| api-gateway/src/graphql/resolvers/mutations                                                                       |          8 |        295 |          0 |         24 |        319 |
+| api-gateway/src/graphql/resolvers/mutations/store                                                                 |          4 |        181 |          0 |         12 |        193 |
+| api-gateway/src/graphql/resolvers/mutations/user                                                                  |          4 |        114 |          0 |         12 |        126 |
+| api-gateway/src/graphql/schemas                                                                                   |         10 |        213 |          0 |         41 |        254 |
+| api-gateway/src/graphql/schemas/store                                                                             |          4 |        120 |          0 |         22 |        142 |
+| api-gateway/src/graphql/schemas/user                                                                              |          4 |         81 |          0 |         15 |         96 |
+| api-gateway/src/helpers                                                                                           |          1 |         11 |          0 |          6 |         17 |
+| api-gateway/src/server                                                                                            |          3 |         49 |          0 |         17 |         66 |
+| iica-app-front                                                                                                    |         13 |        319 |         67 |         71 |        457 |
+| iica-app-front/.yarn                                                                                              |          1 |          8 |          6 |          5 |         19 |
+| iica-app-front/public                                                                                             |          2 |         45 |         23 |          2 |         70 |
+| iica-app-front/src                                                                                                |          8 |        195 |         38 |         31 |        264 |
+| shipping-service                                                                                                  |         12 |      4,032 |         12 |         46 |      4,090 |
+| shipping-service/src                                                                                              |          8 |         91 |          5 |         38 |        134 |
+| shipping-service/src/controllers                                                                                  |          1 |         27 |          0 |         13 |         40 |
+| shipping-service/src/db                                                                                           |          1 |          9 |          0 |          2 |         11 |
+| shipping-service/src/models                                                                                       |          1 |         21 |          0 |          3 |         24 |
+| shipping-service/src/routes                                                                                       |          1 |          9 |          2 |          5 |         16 |
+| shipping-service/src/utils                                                                                        |          2 |          8 |          0 |          6 |         14 |
+| store-service                                                                                                     |         19 |      4,538 |         10 |        141 |      4,689 |
+| store-service/src                                                                                                 |         15 |        597 |          3 |        133 |        733 |
+| store-service/src/controllers                                                                                     |          4 |        356 |          0 |         89 |        445 |
+| store-service/src/db                                                                                              |          1 |         11 |          0 |          3 |         14 |
+| store-service/src/models                                                                                          |          4 |        133 |          0 |         12 |        145 |
+| store-service/src/routes                                                                                          |          4 |         74 |          0 |         20 |         94 |
+| user-service                                                                                                      |         21 |      4,320 |         18 |        126 |      4,464 |
+| user-service/src                                                                                                  |         17 |        379 |         11 |        118 |        508 |
+| user-service/src/controllers                                                                                      |          4 |        154 |          0 |         68 |        222 |
+| user-service/src/db                                                                                               |          1 |         11 |          0 |          3 |         14 |
+| user-service/src/models                                                                                           |          4 |        147 |          0 |         12 |        159 |
+| user-service/src/routes                                                                                           |          4 |         36 |          8 |         20 |         64 |
+| user-service/src/utils                                                                                            |          2 |          8 |          0 |          6 |         14 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                          | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/.dockerignore                                     | Ignore     |          1 |          0 |          0 |          1 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/Dockerfile                                        | Dockerfile |          7 |          7 |          5 |         19 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/babel.config.js                                   | JavaScript |         22 |          0 |          1 |         23 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/package-lock.json                                 | JSON       |      7,342 |          0 |          1 |      7,343 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/package.json                                      | JSON       |         30 |          0 |          1 |         31 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/store-service/BasketAdapter.js       | JavaScript |         58 |          0 |         12 |         70 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/store-service/BillingAdapter.js      | JavaScript |         32 |          0 |          7 |         39 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/store-service/OrderAdapter.js        | JavaScript |         77 |          0 |         12 |         89 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/store-service/ProductAdapter.js      | JavaScript |         83 |          0 |         12 |         95 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/user-service/AdminUserAdapter.js     | JavaScript |         16 |          5 |          4 |         25 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/user-service/CarrierAdapter.js       | JavaScript |         49 |          0 |          8 |         57 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/user-service/ClientAdapter.js        | JavaScript |         32 |          0 |          7 |         39 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/adapters/user-service/UserAdapter.js          | JavaScript |         35 |          0 |          8 |         43 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/index.js                    | JavaScript |          4 |          0 |          3 |          7 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/store/Basket.js   | JavaScript |         39 |          0 |          3 |         42 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/store/Billing.js  | JavaScript |         21 |          0 |          3 |         24 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/store/Order.js    | JavaScript |         63 |          0 |          3 |         66 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/store/Product.js  | JavaScript |         58 |          0 |          3 |         61 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/user/AdminUser.js | JavaScript |         13 |          0 |          3 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/user/Carrier.js   | JavaScript |         44 |          0 |          3 |         47 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/user/Client.js    | JavaScript |         25 |          0 |          3 |         28 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/resolvers/mutations/user/User.js      | JavaScript |         32 |          0 |          3 |         35 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/schema.js                     | JavaScript |         12 |          0 |          3 |         15 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/store.js                      | JavaScript |          0 |          0 |          1 |          1 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/store/Basket.js               | JavaScript |         31 |          0 |          6 |         37 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/store/Billing.js              | JavaScript |         17 |          0 |          4 |         21 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/store/Order.js                | JavaScript |         39 |          0 |          6 |         45 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/store/Product.js              | JavaScript |         33 |          0 |          6 |         39 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/user/AdminUser.js             | JavaScript |         13 |          0 |          3 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/user/Carrier.js               | JavaScript |         25 |          0 |          4 |         29 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/user/Client.js                | JavaScript |         18 |          0 |          4 |         22 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/graphql/schemas/user/User.js                  | JavaScript |         25 |          0 |          4 |         29 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/helpers/accessEnv.js                          | JavaScript |         11 |          0 |          6 |         17 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/index.js                                      | JavaScript |          0 |          0 |          1 |          1 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/server/formatGraphQLErrors.js                 | JavaScript |          9 |          0 |          4 |         13 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/server/injectSession.js                       | JavaScript |         11 |          0 |          4 |         15 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/api-gateway/src/server/startServer.js                         | JavaScript |         29 |          0 |          9 |         38 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/docker-compose.yaml                                           | YAML       |         51 |          0 |          5 |         56 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/.yarn/build-state.yml                          | YAML       |          8 |          6 |          5 |         19 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/README.md                                      | Markdown   |         37 |          0 |         32 |         69 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/package.json                                   | JSON       |         34 |          0 |          1 |         35 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/public/index.html                              | HTML       |         20 |         23 |          1 |         44 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/public/manifest.json                           | JSON       |         25 |          0 |          1 |         26 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/App.css                                    | CSS        |         33 |          0 |          6 |         39 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/App.js                                     | JavaScript |         24 |          0 |          3 |         27 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/App.test.js                                | JavaScript |          8 |          0 |          2 |         10 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/index.css                                  | CSS        |         12 |          0 |          2 |         14 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/index.js                                   | JavaScript |         12 |          3 |          3 |         18 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/logo.svg                                   | XML        |          7 |          0 |          1 |          8 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/serviceWorker.js                           | JavaScript |         98 |         31 |         13 |        142 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/iica-app-front/src/setupTests.js                              | JavaScript |          1 |          4 |          1 |          6 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/Dockerfile                                   | Dockerfile |          7 |          7 |          5 |         19 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/babel.config.js                              | JavaScript |         22 |          0 |          1 |         23 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/package-lock.json                            | JSON       |      3,886 |          0 |          1 |      3,887 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/package.json                                 | JSON       |         26 |          0 |          1 |         27 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/controllers/AdminUserController.js       | JavaScript |         27 |          0 |         13 |         40 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/db/database.js                           | JavaScript |          9 |          0 |          2 |         11 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/index.js                                 | JavaScript |          6 |          0 |          3 |          9 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/models/AdminUser.js                      | JavaScript |         21 |          0 |          3 |         24 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/routes/AdminRoutes.js                    | JavaScript |          9 |          2 |          5 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/server.js                                | JavaScript |         11 |          3 |          6 |         20 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/utils/hashPassword.js                    | JavaScript |          4 |          0 |          3 |          7 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/shipping-service/src/utils/passwordCompareSync.js             | JavaScript |          4 |          0 |          3 |          7 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/Dockerfile                                      | Dockerfile |          7 |          7 |          5 |         19 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/babel.config.js                                 | JavaScript |         22 |          0 |          1 |         23 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/package-lock.json                               | JSON       |      3,886 |          0 |          1 |      3,887 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/package.json                                    | JSON       |         26 |          0 |          1 |         27 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/controllers/BasketController.js             | JavaScript |         74 |          0 |         25 |         99 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/controllers/BillingController.js            | JavaScript |         36 |          0 |         13 |         49 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/controllers/OrderController.js              | JavaScript |        127 |          0 |         26 |        153 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/controllers/ProductController.js            | JavaScript |        119 |          0 |         25 |        144 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/db/database.js                              | JavaScript |         11 |          0 |          3 |         14 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/index.js                                    | JavaScript |          6 |          0 |          3 |          9 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/models/Basket.js                            | JavaScript |         28 |          0 |          3 |         31 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/models/Billing.js                           | JavaScript |         20 |          0 |          3 |         23 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/models/Order.js                             | JavaScript |         41 |          0 |          3 |         44 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/models/Product.js                           | JavaScript |         44 |          0 |          3 |         47 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/routes/BasketRoutes.js                      | JavaScript |         20 |          0 |          5 |         25 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/routes/BillingRoutes.js                     | JavaScript |         14 |          0 |          5 |         19 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/routes/OrderRoutes.js                       | JavaScript |         20 |          0 |          5 |         25 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/routes/ProductRoutes.js                     | JavaScript |         20 |          0 |          5 |         25 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/store-service/src/server.js                                   | JavaScript |         17 |          3 |          6 |         26 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/Dockerfile                                       | Dockerfile |          7 |          7 |          5 |         19 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/babel.config.js                                  | JavaScript |         22 |          0 |          1 |         23 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/package-lock.json                                | JSON       |      3,886 |          0 |          1 |      3,887 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/package.json                                     | JSON       |         26 |          0 |          1 |         27 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/controllers/AdminUserController.js           | JavaScript |         27 |          0 |         13 |         40 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/controllers/CarrierController.js             | JavaScript |         44 |          0 |         18 |         62 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/controllers/ClientController.js              | JavaScript |         41 |          0 |         19 |         60 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/controllers/UserController.js                | JavaScript |         42 |          0 |         18 |         60 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/db/database.js                               | JavaScript |         11 |          0 |          3 |         14 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/index.js                                     | JavaScript |          6 |          0 |          3 |          9 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/models/AdminUser.js                          | JavaScript |         21 |          0 |          3 |         24 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/models/Carrier.js                            | JavaScript |         50 |          0 |          3 |         53 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/models/Client.js                             | JavaScript |         29 |          0 |          3 |         32 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/models/User.js                               | JavaScript |         47 |          0 |          3 |         50 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/routes/AdminRoutes.js                        | JavaScript |          9 |          2 |          5 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/routes/CarrierRoutes.js                      | JavaScript |          9 |          2 |          5 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/routes/ClientRoutes.js                       | JavaScript |          9 |          2 |          5 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/routes/UserRoutes.js                         | JavaScript |          9 |          2 |          5 |         16 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/server.js                                    | JavaScript |         17 |          3 |          6 |         26 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/utils/hashPassword.js                        | JavaScript |          4 |          0 |          3 |          7 |
+| /home/jbolanos/Documentos/hackathon/Codigo/IICA-APP/user-service/src/utils/passwordCompareSync.js                 | JavaScript |          4 |          0 |          3 |          7 |
+| Total                                                                                                             |            |     21,616 |        119 |        559 |     22,294 |
++-------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
